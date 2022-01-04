@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    min-height:100vh;
+    position:relative;
+    padding-bottom:2em;
+}
+
+@font-face {
+  font-family: "Anton";
+  src: url("https://fonts.google.com/");
+}
+@font-face {
+  font-family: "FashionFetish";
+  src: url("fonts/FashionFetishBold.ttf");
+}
+
+.title{
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1px;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+    animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+    75% {
+		opacity: 0.9;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInOpacity2 {
+	0% {
+		opacity: 0;
+	}	
+    20% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+h1 a {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
+h1 a:hover{
+    text-decoration: none;
+    color: transparent;
+}
+@media (max-width: 425px){
+    h1 a{
+        font-size:100px;
+    }
+}
+.content{
+    margin-bottom:1em;
+}
+.photos{
+    height:100%;
+}
+.photos .item{
+    overflow: hidden;
+    padding: 3px;
+}
+.photos .item .box{
+    overflow:hidden;
+    height:350px;
+    position:relative;
+}
+.photos .item img{
+    width:100%!important;
+    height:100%!important;
+    object-fit:cover;
+    -o-object-fit:cover;
+}
+.photos .item a .cover{
+    opacity:0;
+    background:#000000AA;
+    width:100%;
+    height:350px;
+    display:inline-block;
+    z-index:2;
+    position:absolute;
+    top:0;
+    transition-duration:0.5s;
+    background-image: url(img/lupa-01.png);
+    background-repeat: no-repeat;
+    background-size:30px;
+    background-position:center center;
+}
+.photos .item a:hover .cover{
+    opacity:1;
+}
+.photos .box h2{
+    position:absolute;
+    bottom:-100%;
+    width:100%;
+    background-color:black;
+    padding:10px 10px;
+    color:#fff;
+    font-size:14pt;
+    transition-duration:0.8s;
+    z-index:2;
+    text-align:center;
+}
+.photos .item a:hover h2{
+    bottom:-10px;
+}
+
+.back {
+    margin-bottom: 6vh;
+}
+.commissions .item{
+    padding-top:0;
+    padding-bottom:0;
+}
+.columna1, .comImg,.commissions.photos .item .box,.commissions.photos .item .cover{
+    height:100%;
+}
+.columna1{
+    background-color: dimgrey;
+    margin-bottom:10px;
+}
+.columnac1 {
+	font-family: "FashionFetish";
+    font-weight: 100;
+    font-size: 16pt;
+    text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+.textoc{
+    background-color:#dcdcdc;
+    padding:5px;
+    margin:15px;
+}
+.textoc ul, .textoc h2{
+    font-family: calibri, sans-serif;
+    font-weight:bold;
+    font-size: 8pt;
+    padding:15px 15px;
+    margin:0;
+}
+.textoc a{
+    color:cadetblue;
+}
+.textoc ul li{
+    list-style-type:none;
+    text-indent: -10px;
+}
+.textoc ul li:before{
+    content: "- ";
+    font-weight:600;
+}
+.textoc span{
+    text-shadow:
+   -0.3px -0.3px 0 #000,  
+    0.3px -0.3px 0 #000,
+   -0.3px 0.3px 0 #000,
+    0.3px 0.3px 0 #000;
+}
+.textoc h2{
+    padding:10px;
+}
+.price{
+    font-size:3em;
+    padding-top:10px;
+}
+@media (max-width: 767px){
+    .columna1, .comImg,.commissions.photos .item .box,.commissions.photos .item .cover{
+        overflow:auto;
+        height:auto;
+        max-height:auto;
+    }
+    .commissions.lightbox-gallery{
+        padding:0 12px;
+    }
+    .photos .box h2{
+        position:static;
+        padding:0.5em 10px;
+    }
+}
+
+nav{
+  width: 100%;
+  top:30px;
+  text-align:center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  animation-name: fadeInOpacity2;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-decoration-line: none;
+  color:#16151b;
+  margin:0 15px;
+  font-size:20px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+nav a:before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background:#16151b;
+  top:47%;
+  animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+
+nav a:hover{
+    text-decoration:none;
+    color:#16151b;
+}
+
+nav a:hover:before{
+  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+
+}
+
+.redes a{
+    margin: 6px;
+}
+
+.pie{
+    margin: 0;
+    padding: 5px;
+    height: 2em;
+    width:100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10pt;
+    position:absolute;
+    bottom:0;
+}
+
+@keyframes in{
+  0%{
+    width: 0;
+    left:0;
+    right:auto;
+  }
+  100%{
+    left:0;
+    right:auto;
+    width: 100%;
+  }
+}
+@keyframes out{
+  0%{
+    width:100%;
+    left: auto;
+    right: 0;
+  }
+  100%{
+    width: 0;
+    left: auto;
+    right: 0;
+  }
+}
+@keyframes show{
+  0%{
+    opacity:0;
+    transform:translateY(-10px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@for $i from 1 through 5 {
+  nav a:nth-child(#{$i}){
+    animation:show .2s #{$i*0.1+1}s ease 1 both;
+  }
+}
+
+
+/*About*/
+.about .box1{
+    background-color:dimgrey;
+}
+.about .box2{
+    background-color:#dcdcdc;
+}
+.about .box1 img{
+    width:100%;
+}
+.about .box2{
+    padding: 3em;
+}
+.about .box2 h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight:500;
+    text-transform:uppercase;
+    color:#16151b;
+}
+.about .box2 ul{
+    padding:1em;
+    text-align:center;
+}
+.about .box2 li{
+    list-style:none;
+    display:inline;
+}
+.about .box2 li img{
+    width:3em;
+    height:auto;
+}
