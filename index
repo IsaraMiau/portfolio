@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html> 
+<head>
+  <meta charset="utf-8">
+  <title>Isara - Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+<div class="lightbox-gallery">
+    <div class="container">
+        <div class="row">
+         <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="title">
+<h1><a href="index.html">Isara</a></h1>
+          </div> 
+         </div>
+        </div>
+        <div class="row">
+         <div class="col-md-12 col-sm-12 col-xs-12">
+            <nav>
+              <a href="index.html">Illustration</a>
+              <a href="design.html">Design</a>
+              <a href="about.html">About</a>
+            </nav>
+         </div>
+        </div>
+        <div class="row photos indexGal">
+            <div class="col-md-8 col-sm-12 col-xs-12 item">
+                <div class="box">
+                    <a href="img/1b.jpg" alt=“Ilustración” title=“Krim” data-lightbox="photos">
+                        <div class="cover">
+                        </div>
+                        <img class="img-fluid" src="img/1a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/2b.jpg" alt=“Ilustración” title=“KrimyAnnette” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/2a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/3b.jpg" alt=“Ilustración” title=“Caspar” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/3a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/4b.jpg" alt=“Ilustración” title=“TiagoyKrim” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/4a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/5b.jpg" alt=“Ilustración” title=“Krim” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/5a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/7b.jpg" alt=“Ilustración” title=“Ganondorf” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/7a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/6b.jpg" alt=“Ilustración” title=“Tuco” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/6a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/10b.jpg" alt=“Ilustración” title=“MajorasMask” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/10a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/9b.jpg" alt=“Ilustración” title=“GrupoRol” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/9a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12 col-xs-12 item">
+                <div class="box">
+                    <a href="img/12b.jpg" alt=“Ilustración” title=“JosephSeed” data-lightbox="photos">
+                        <div class="cover">
+                        </div>
+                        <img class="img-fluid" src="img/12a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/11b.jpg" alt=“Ilustración” title=“KrimHimn” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/11a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/13b.jpg" alt=“Ilustración” title=“Vaati” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/13a.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 item">
+                <div class="box">
+                    <a href="img/14b.jpg" alt=“Ilustración” title=“MariaFFVI” data-lightbox="photos">
+                        <div class="cover"></div>
+                        <img class="img-fluid" src="img/14a.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+             <div class="row pie">
+         <div class="col-md-12 col-sm-12 co-xs-12">
+            <div> 
+                Isabel Morcillo Ruiz - 2020/2021
+             </div>
+         </div>
+        </div>
+</body>
